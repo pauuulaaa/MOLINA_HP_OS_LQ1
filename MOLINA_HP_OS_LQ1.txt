@@ -1,0 +1,129 @@
+Microsoft Windows [Version 10.0.19045.5965]
+(c) Microsoft Corporation. All rights reserved.
+
+C:\Users\acer>cd downloads
+
+C:\Users\acer\Downloads>md MOLINA_HP_OS-LQ1
+
+C:\Users\acer\Downloads>cd MOLINA_HP_OS-LQ1
+
+C:\Users\acer\Downloads\MOLINA_HP_OS-LQ1>md "src" "common" "installer" "cache" "user"
+
+C:\Users\acer\Downloads\MOLINA_HP_OS-LQ1>cd src
+
+C:\Users\acer\Downloads\MOLINA_HP_OS-LQ1\src>
+C:\Users\acer\Downloads\MOLINA_HP_OS-LQ1\src>md a\b\c\d\e\f\g
+
+C:\Users\acer\Downloads\MOLINA_HP_OS-LQ1\src>
+C:\Users\acer\Downloads\MOLINA_HP_OS-LQ1\src>cd..
+
+C:\Users\acer\Downloads\MOLINA_HP_OS-LQ1>
+C:\Users\acer\Downloads\MOLINA_HP_OS-LQ1>cd common
+
+C:\Users\acer\Downloads\MOLINA_HP_OS-LQ1\common>md h\i\j\k\l\m
+
+C:\Users\acer\Downloads\MOLINA_HP_OS-LQ1\common>cd..
+
+C:\Users\acer\Downloads\MOLINA_HP_OS-LQ1>md installer\installer_folder
+
+C:\Users\acer\Downloads\MOLINA_HP_OS-LQ1>cd cache
+
+C:\Users\acer\Downloads\MOLINA_HP_OS-LQ1\cache>md "a" "b" "c" "d" "e" "f" "g" "h" "i" "j" "k" "l" "m" "n" "o" "p" "q" "r" "s" "t" "u" "v" "w" "x" "y" "z"
+
+C:\Users\acer\Downloads\MOLINA_HP_OS-LQ1\cache>md "1" "2" "3" "4" "5" "6" "7" "8" "9" "10"
+
+C:\Users\acer\Downloads\MOLINA_HP_OS-LQ1\cache>cd..
+
+C:\Users\acer\Downloads\MOLINA_HP_OS-LQ1>cd user
+
+C:\Users\acer\Downloads\MOLINA_HP_OS-LQ1\user>md "user_jerico" "user_eliza" "user_juan"
+
+C:\Users\acer\Downloads\MOLINA_HP_OS-LQ1\user>cd user_jerico
+
+C:\Users\acer\Downloads\MOLINA_HP_OS-LQ1\user\user_jerico>md "user_profile" "user_settings" "user_preferences"
+
+C:\Users\acer\Downloads\MOLINA_HP_OS-LQ1\user\user_jerico>cd user_profile
+
+C:\Users\acer\Downloads\MOLINA_HP_OS-LQ1\user\user_jerico\user_profile>md "jerico" "estabillo"
+
+C:\Users\acer\Downloads\MOLINA_HP_OS-LQ1\user\user_jerico\user_profile>cd..
+
+C:\Users\acer\Downloads\MOLINA_HP_OS-LQ1\user\user_jerico>cd user_settings
+
+C:\Users\acer\Downloads\MOLINA_HP_OS-LQ1\user\user_jerico\user_settings>md "OSversion" "AppVersion"
+
+C:\Users\acer\Downloads\MOLINA_HP_OS-LQ1\user\user_jerico\user_settings>cd..
+
+C:\Users\acer\Downloads\MOLINA_HP_OS-LQ1\user\user_jerico>cd..
+
+C:\Users\acer\Downloads\MOLINA_HP_OS-LQ1\user>xcopy "user_jerico\*" "user_eliza" /E /I
+0 File(s) copied
+
+C:\Users\acer\Downloads\MOLINA_HP_OS-LQ1\user>xcopy "user_jerico\*" "user_juan" /E /I
+0 File(s) copied
+
+C:\Users\acer\Downloads\MOLINA_HP_OS-LQ1\user>rename "user_eliza\user_profile\estabillo" "Eliza"
+
+C:\Users\acer\Downloads\MOLINA_HP_OS-LQ1\user>rename "user_eliza\user_profile\jerico" "Taylor"
+
+C:\Users\acer\Downloads\MOLINA_HP_OS-LQ1\user>rename "user_juan\user_profile\estabillo" "Juan"
+
+C:\Users\acer\Downloads\MOLINA_HP_OS-LQ1\user>rename "user_juan\user_profile\jerico" "Pablo"
+
+C:\Users\acer\Downloads\MOLINA_HP_OS-LQ1\user>cd user_jerico
+
+C:\Users\acer\Downloads\MOLINA_HP_OS-LQ1\user\user_jerico>cd user_settings
+
+C:\Users\acer\Downloads\MOLINA_HP_OS-LQ1\user\user_jerico\user_settings>cd appversion
+
+C:\Users\acer\Downloads\MOLINA_HP_OS-LQ1\user\user_jerico\user_settings\AppVersion>md "sampleApp_v2" "sampleApp_v3" "sampleApp_v5"
+
+C:\Users\acer\Downloads\MOLINA_HP_OS-LQ1\user\user_jerico\user_settings\AppVersion>cd..
+
+C:\Users\acer\Downloads\MOLINA_HP_OS-LQ1\user\user_jerico\user_settings>cd..
+
+C:\Users\acer\Downloads\MOLINA_HP_OS-LQ1\user\user_jerico>cd..
+C:\Users\acer\Downloads\MOLINA_HP_OS-LQ1\user>cd..
+
+C:\Users\acer\Downloads\MOLINA_HP_OS-LQ1>move "user\user_jerico\user_settings\AppVersion\sampleApp_v3" "user\user_eliza\user_settings\AppVersion"
+        1 dir(s) moved.
+
+
+C:\Users\acer\Downloads\MOLINA_HP_OS-LQ1>move "user\user_jerico\user_settings\AppVersion\sampleApp_v5" "user\user_juan\user_settings\AppVersion"
+        1 dir(s) moved.
+
+C:\Users\acer\Downloads\MOLINA_HP_OS-LQ1>cd user
+C:\Users\acer\Downloads\MOLINA_HP_OS-LQ1\user>cd user_eliza
+
+C:\Users\acer\Downloads\MOLINA_HP_OS-LQ1\user\user_eliza>cd user_settings
+
+C:\Users\acer\Downloads\MOLINA_HP_OS-LQ1\user\user_eliza\user_settings>rd OSversion
+
+C:\Users\acer\Downloads\MOLINA_HP_OS-LQ1\user\user_eliza\user_settings>cd..
+
+C:\Users\acer\Downloads\MOLINA_HP_OS-LQ1\user\user_eliza>cd..
+
+C:\Users\acer\Downloads\MOLINA_HP_OS-LQ1\user>cd user_jerico
+
+C:\Users\acer\Downloads\MOLINA_HP_OS-LQ1\user\user_jerico>cd user_settings
+
+C:\Users\acer\Downloads\MOLINA_HP_OS-LQ1\user\user_jerico\user_settings>rd OSversion
+
+C:\Users\acer\Downloads\MOLINA_HP_OS-LQ1\user\user_jerico\user_settings>cd..
+
+C:\Users\acer\Downloads\MOLINA_HP_OS-LQ1\user\user_jerico>cd..
+
+C:\Users\acer\Downloads\MOLINA_HP_OS-LQ1\user>cd user_juan
+
+C:\Users\acer\Downloads\MOLINA_HP_OS-LQ1\user\user_juan>cd user_settings
+
+C:\Users\acer\Downloads\MOLINA_HP_OS-LQ1\user\user_juan\user_settings>rd OSversion
+
+C:\Users\acer\Downloads\MOLINA_HP_OS-LQ1\user\user_juan\user_settings>cd..
+
+C:\Users\acer\Downloads\MOLINA_HP_OS-LQ1\user\user_juan>cd..
+
+C:\Users\acer\Downloads\MOLINA_HP_OS-LQ1\user>cd..
+
+C:\Users\acer\Downloads\MOLINA_HP_OS-LQ1>move user\user_jerico\user_preferences installer\installer_folder\Mode
+        1 dir(s) moved.
